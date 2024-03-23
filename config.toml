@@ -1,0 +1,23 @@
+PORT = ":port"
+
+[CQHTTP]
+# hmac key.
+SECRET = ""
+# anyone in those qq group will pass auth.
+GROUP_ID = []
+# key word to let qqbot to request opening door.
+KEY_WORD = ""
+# if passed, bot will reply:
+FAST_REPLAY_OK = ""
+# if failed, bot will reply:
+FAST_REPLAY_NO = ""
+
+[MFRCScan]
+# hmac key
+SECRET = ""
+# [not implement]
+# max seconds different from the time of the request and the current.
+TOLERANCE = 5
+
+[GORM]
+DSN = "user:password@tcp(url:port)/database?charset=utf8mb4&parseTime=True&loc=Local"
